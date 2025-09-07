@@ -2,12 +2,12 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-image: linear-gradient(80deg, #1a0033, #3a0170);
+    background-image: linear-gradient(80deg, #003a6b, #5a7c1a);
     overflow: hidden;
     font-family: 'poppins';
 }
 body.light{
-    background-image: linear-gradient(80deg, #a161dd, #a565e0);
+    background-image: linear-gradient(80deg, #5a7c1a, #003a6b);
 }
 
 #up{
@@ -16,12 +16,12 @@ body.light{
     height: 80vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #ac05a4, #f72b9180);
+    background-image: linear-gradient(80deg, #003a6bcc, #5a7c1a99);
     filter: blur(80px);
     animation: down 40s infinite;
 }
 .light #up{
-    background-image: linear-gradient(80deg, #f576bccc, #f37ab7);
+    background-image: linear-gradient(80deg, #5a7c1acc, #003a6b99);
 }
 
 #down{
@@ -31,12 +31,12 @@ body.light{
     height: 50vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #f32596cc, #f37ab7);
+    background-image: linear-gradient(80deg, #003a6b99, #5a7c1acc);
     filter: blur(80px);
     animation: up 30s infinite;
 }
 .light #down{
-    background-image: linear-gradient(80deg, #e966e2, #f72b9180);
+    background-image: linear-gradient(80deg, #5a7c1a99, #003a6bcc);
 }
 
 #left{
@@ -45,12 +45,12 @@ body.light{
     height: 50vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #6f05ac, #7a34fdcc);
+    background-image: linear-gradient(80deg, #003a6bcc, #5a7c1a99);
     filter: blur(80px);
     animation: left 30s 1s infinite;
 }
 .light #left{
-    background-image: linear-gradient(80deg, #b2c9fa99, #7eeff780);
+    background-image: linear-gradient(80deg, #5a7c1a99, #003a6b80);
 }
 
 #right{
@@ -59,12 +59,12 @@ body.light{
     height: 40vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #125bf899, #0abac780);
+    background-image: linear-gradient(80deg, #003a6b99, #5a7c1a80);
     filter: blur(80px);
     animation: right 40s .5s infinite;
 }
 .light #right{
-    background-image: linear-gradient(80deg, #cf91f3, #9866f3cc);
+    background-image: linear-gradient(80deg, #5a7c1acc, #003a6bcc);
 }
 
 
